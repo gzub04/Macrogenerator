@@ -1,0 +1,4 @@
+#MDEF macro1
+test
+#MEND
+#MCALL macro1

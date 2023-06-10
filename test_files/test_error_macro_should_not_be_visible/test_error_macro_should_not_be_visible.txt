@@ -1,0 +1,7 @@
+#MDEF macro1
+#MDEF macro2
+macro2
+#MEND
+#MEND
+#MCALL macro2
+output

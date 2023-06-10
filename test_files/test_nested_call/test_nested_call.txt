@@ -1,0 +1,9 @@
+#MDEF macro1
+1st line
+#MDEF macro_inside
+from the inside
+#MEND
+2nd line, calling macro_inside next
+#MCALL macro_inside
+#MEND
+#MCALL macro1

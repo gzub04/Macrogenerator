@@ -1,0 +1,9 @@
+free text
+#MDEF macro1
+parameter 1 is $param1 and 2nd parameter is $param2
+#MDEF macro2
+reverse parameters! $p1 $p2
+#MEND
+#MCALL macro2 p2=$param1 p1=$param2
+#MEND
+#MCALL macro1 param1=witam param2=serdecznie

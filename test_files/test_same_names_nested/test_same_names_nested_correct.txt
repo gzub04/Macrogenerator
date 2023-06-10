@@ -1,0 +1,6 @@
+free text
+Expecting macro2:
+just some macro2 text
+Expecting macro1 together with macro2 inside macro1:
+text inside macro1
+macro2 inside macro1

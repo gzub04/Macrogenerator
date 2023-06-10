@@ -1,0 +1,15 @@
+free text
+#MDEF macro2
+just some macro2 text
+#MEND
+#MDEF macro1
+#MDEF macro2
+macro2 inside macro1
+#MEND
+text inside macro1
+#MCALL macro2
+#MEND
+Expecting macro2:
+#MCALL macro2
+Expecting macro1 together with macro2 inside macro1:
+#MCALL macro1

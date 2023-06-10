@@ -1,0 +1,7 @@
+#MDEF macro1
+shouldn't print
+#MEND
+#MDEF macro1
+should print
+#MEND
+#MCALL macro1
